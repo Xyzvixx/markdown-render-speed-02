@@ -1,0 +1,20 @@
+# ATURAN KEAMANAN MUTLAK (Ridho, 2026-11-16 04:55 WIB):
+# Jangan pernah commit/push file rahasia. Sebelum push apa pun, scan repo
+# untuk .env / private key / seed phrase / API key / token. Signing entry
+# HANYA dengan agent wallet, JANGAN PERNAH dengan wallet Primary Ridho.
+.env
+.env.*
+*.key
+*.pem
+*secret*
+*credential*
+credentials
+credentials.json
+makefun-keypair.json
+**/makefun-keypair.json
+**/connect.json
+**/connected.json
+kit/
+*.tar.gz
+node_modules/
+.DS_Store
